@@ -1,0 +1,119 @@
+@font-face{font-family:SAO-UI;src: url('SAOUI-Regular.otf')}
+@font-face{font-family:SAO-UIB;src: url('SAOUI-Bold.otf')}
+#header
+{
+	font-size:  100pt;
+	color: royalblue;
+	font-family: SAO-UIB
+}
+
+#body
+
+{
+	font-size: 20pt;
+	color: white;
+	font-family: SAO-UI;
+}
+
+#swordtitle
+{
+	font-family: SAO-UI;
+	color: white;
+	font-size: 30pt;
+	position: relative;
+	left: 600px; top: 150px;
+}
+
+#sworddesc
+{
+	font-family: SAO-UI;
+	color: white;
+	font-size: 20pt;
+	position: relative;
+	left: 600px; top: 120px;
+}
+
+#sword1
+{
+	position: relative;
+	bottom: 100px; left: 175px;
+}
+
+#swordtitle2
+{
+	font-family: SAO-UI;
+	color: white;
+	font-size: 30pt;
+	position: relative;
+	left: 600px;
+}
+
+#sworddesc2
+{
+	font-family: SAO-UI;
+	color: white;
+	font-size: 20pt;
+	position: relative;
+	left: 600px; bottom: 20px;
+}
+
+#sword2
+{
+	position: relative;
+	left: 170px; bottom:250px;
+}
+
+#swordtitle3
+{
+	font-family: SAO-UI;
+	color: white;
+	font-size: 30pt;
+	position: relative;
+	left: 600px; bottom: 100px;
+}
+
+#sworddesc3
+{
+	font-family: SAO-UI;
+	color: white;
+	font-size: 20pt;
+	position: relative;
+	left: 600px; bottom: 80px;
+}
+
+#sword3
+{
+	position: relative;
+	left: 170px; bottom: 320px;
+}
+
+#victimtitle
+{
+	font-family: SAO-UI;
+	color: white;
+	font-size: 60pt;
+}
+
+#timeline
+{
+	font-family: SAO-UI;
+	color: white;
+	font-size: 20pt;
+}
+
+#kayaba
+{
+	position: relative;
+	left: 1300px; bottom: 500px;
+	font-family: SAO-UI;
+	color: Red;
+	font-size: 15pt;
+}
+
+.footer
+{
+	font-family: SAO-UI;
+	color: white;
+	font-size: 10pt;
+	background-color:black;
+}

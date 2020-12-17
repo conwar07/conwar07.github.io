@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="CSS/style.css">
+		<link href='https://fontmeme.com/fonts/sao-ui-font' rel='stylesheet'>
+		<title> Welcome to Sword Art Online </title>
+	</head>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		body {
+		  font-family: 'Lato', sans-serif;
+		}
+		
+		.overlay {
+		  height: 100%;
+		  width: 0;
+		  position: fixed;
+		  z-index: 1;
+		  top: 0;
+		  left: 0;
+		  background-color: rgb(0,0,0);
+		  background-color: rgba(0,0,0, 0.9);
+		  overflow-x: hidden;
+		  transition: 0.5s;
+		}
+		
+		.overlay-content {
+		  position: relative;
+		  top: 25%;
+		  width: 100%;
+		  text-align: center;
+		  margin-top: 30px;
+		}
+		
+		.overlay a {
+		  padding: 8px;
+		  text-decoration: none;
+		  font-size: 36px;
+		  color: #818181;
+		  display: block;
+		  transition: 0.3s;
+
+		}
+		
+		.overlay a:hover, .overlay a:focus {
+		  color: #f1f1f1;
+		}
+		
+		.overlay .closebtn {
+		  position: absolute;
+		  top: 20px;
+		  right: 45px;
+		  font-size: 60px;
+		}
+		
+		@media screen and (max-height: 450px) {
+		  .overlay a {font-size: 20px}
+		  .overlay .closebtn {
+		  font-size: 40px;
+		  top: 15px;
+		  right: 35px;
+		  }
+		}
+		</style>
+		</head>
+
+		<body>
+
+			<div id="myNav" class="overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="overlay-content">
+				<a href="SAO home mk1.html">Home</a>
+				<a href="SAO showcase mk1.html">Showcase</a>
+				<a href="SAO Timeline mk1.html">Timeline</a>
+			  </div>
+			</div>
+			
+		
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+			
+			<script>
+			function openNav() {
+			  document.getElementById("myNav").style.width = "100%";
+			}
+			
+			function closeNav() {
+			  document.getElementById("myNav").style.width = "0%";
+			}
+			</script>
+			
+			</body>
+
+	<body><div id=header>
+	<center><P style="font-weight: bold"> Welcome to Sword Art Online. </p> </div></center>
+
+
+		<div id=body>
+	<center><P> This website exists to showcase the weapons used by the legendary hero of aincrad and his associates and to <br>
+		preserve the works created by Akihiko Kayaba.<br>
+		May it serve as a reminder of the heroic battles fought by the Assault team, and the tragedy of the lives lost. </p></center>
+	<br>
+	<br>
+	<br>
+	<center><img src="images/Crossed swords.png"></center>
+	<br>
+	<br>
+	<br>
+	<br>
+
+		<div class=footer>
+			<footer>
+				<img src="images/Rath_logo.png" style="width: 100pt; height: 100pt;">
+				<img src="images/KARF.jpg" style="width: 100pt; height:100pt;">
+				<p> All images and characters belong to Reki Kawahara. please support the official release.</p>
+			</footer>
+		</div>
+
+		<style>
+			body{
+				background-image: url('images/aincrad.png');
+		}</style>
+
+	</body>
+</html>
